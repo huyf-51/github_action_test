@@ -6,5 +6,5 @@ import Page from './page';
 
 it('App Router: Works with Server Components', () => {
     render(<Page />);
-    expect(screen.getByRole('heading')).toHaveTextContent('App Routr');
+    expect(screen.getByRole('heading')).toHaveTextContent('App Rout');
 });
